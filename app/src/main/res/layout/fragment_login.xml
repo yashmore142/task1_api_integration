@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.loginscreen.view.fragment.LoginFragment">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_app_icon"/>
+    <com.example.banking_app_java.utils.OutlineTextFiled
+        android:id="@+id/tilUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+    </com.example.banking_app_java.utils.OutlineTextFiled>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_30"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:textColorHint="?attr/colorOnSurface"
+        app:errorTextColor="@color/black"
+        app:endIconMode="password_toggle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tilUserName">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textSize="@dimen/size_14"
+            android:textColorHint="?attr/colorOnSurface" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:id="@+id/tvLblForgetPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10"
+        android:text="forgot password?"
+        android:gravity="end"
+        android:layout_marginHorizontal="@dimen/margin_30"
+        android:textSize="@dimen/size_12"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="?attr/colorOnSurface"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tilPassword" />
+    <Button
+        android:id="@+id/btnSignIn"
+        style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_30"
+        android:layout_marginTop="@dimen/margin_50"
+        android:text="@string/log_in"
+        android:textAllCaps="false"
+        android:textColor="?attr/colorOnSurface"
+        app:shapeAppearance="?attr/shapeAppearanceCornerExtraSmall" />
+
+</LinearLayout>

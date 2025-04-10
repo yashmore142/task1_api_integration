@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Self Bank</string>
+    <string name="log_in">Log In</string>
+    <string name="user_name">User name</string>
+    <string name="enter_user_name">Please Enter User Name</string>
+    <string name="enter_password">Please Enter Password</string>
+    <string name="select_security_type">Select Security Type</string>
+    <string name="pin">PIN</string>
+    <string name="biometric">Biometric</string>
+    <string name="transactions">Transactions</string>
+    <string name="logout">Logout</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="unlock_with_fingerprint"><u>Unlock with Fingerprint</u></string>
+</resources>
