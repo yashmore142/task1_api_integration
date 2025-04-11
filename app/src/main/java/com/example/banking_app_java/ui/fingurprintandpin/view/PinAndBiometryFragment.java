@@ -15,7 +15,6 @@ import android.widget.Toast;
 
 import com.example.banking_app_java.R;
 import com.example.banking_app_java.databinding.FragmentPinAndBiometryBinding;
-import com.example.banking_app_java.databinding.FragmentSplashScreenBinding;
 import com.example.banking_app_java.ui.detailsscreen.view.fragment.TrasactionFragment;
 import com.example.banking_app_java.utils.SessionManager;
 

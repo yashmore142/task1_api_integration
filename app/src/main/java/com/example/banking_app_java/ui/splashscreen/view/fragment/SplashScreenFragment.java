@@ -13,16 +13,12 @@ import android.os.Looper;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
-
 import com.example.banking_app_java.R;
 import com.example.banking_app_java.databinding.FragmentSplashScreenBinding;
-import com.example.banking_app_java.ui.detailsscreen.view.fragment.TrasactionFragment;
 import com.example.banking_app_java.ui.fingurprintandpin.view.PinAndBiometryFragment;
 import com.example.banking_app_java.ui.loginscreen.view.fragment.LoginFragment;
 import com.example.banking_app_java.utils.SessionManager;
 
-import java.util.concurrent.Executor;
 
 public class SplashScreenFragment extends Fragment {
 

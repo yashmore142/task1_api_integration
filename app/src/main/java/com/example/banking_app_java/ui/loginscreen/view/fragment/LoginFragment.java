@@ -8,15 +8,11 @@ import androidx.biometric.BiometricManager;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.Observer;
-
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
-
 import com.example.banking_app_java.R;
 import com.example.banking_app_java.databinding.FragmentLoginBinding;
 import com.example.banking_app_java.databinding.SetupBiometryDialogBinding;
@@ -107,7 +103,6 @@ public class LoginFragment extends Fragment {
                     .commit();
         } else {
             Toast.makeText(requireContext(), "Biometric not supported or not set up", Toast.LENGTH_LONG).show();
-            //loginUser();
         }
     }
 }
